@@ -43,6 +43,7 @@ body {
 a {
     /* Matching app-mid-blue color used in title */
     color: rgb(35, 52, 147);
+    font-size: 1.2em;
 }
 
 .main-content {
