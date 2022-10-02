@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+}
+
+body {
+    --app-dark-blue: rgb(0, 0, 40);
+    --app-mid-blue: rgb(94, 106, 176);
+    --app-light-blue: rgb(151, 148, 196);
+    background-color: var(--app-dark-blue);
+    padding: 50px 250px 50px 250px;
+}
+
+.title-container {
+    background-color: var(--app-mid-blue);
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.title-container > h1 {
+    font-size: 3.8rem;
+    margin-right: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-content {
+    display: flex;
+}
+
+.navbar {
+    width: 25%;
+    background-color: var(--app-light-blue);
+}
+
+.main-content {
+    background-color: antiquewhite;
+}
+
+img {
+    width: 280px;
+    height: 300px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+section {
+    margin: 20px 20px 20px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: var(--app-light-blue);
+}
+
+p {
+    font-size: 1.2em;
+}
