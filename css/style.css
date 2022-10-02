@@ -29,8 +29,20 @@ body {
 }
 
 .navbar {
-    width: 25%;
+    width: 27%;
     background-color: var(--app-light-blue);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+a {
+    /* Matching app-mid-blue color used in title */
+    color: rgb(35, 52, 147);
 }
 
 .main-content {
