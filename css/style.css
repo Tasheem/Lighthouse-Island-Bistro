@@ -7,7 +7,7 @@ body {
     --app-mid-blue: rgb(94, 106, 176);
     --app-light-blue: rgb(151, 148, 196);
     background-color: var(--app-dark-blue);
-    padding: 50px 250px 50px 250px;
+    padding: 10px 250px 10px 250px;
 }
 
 .title-container {
@@ -51,7 +51,7 @@ a {
 
 img {
     width: 280px;
-    height: 350px;
+    height: 390px;
     float: right;
     margin-top: 35px;
     margin-right: 35px;
@@ -59,7 +59,7 @@ img {
 }
 
 section {
-    margin: 20px 20px 20px 20px;
+    margin: 35px 20px 5px 20px;
 }
 
 h2 {
